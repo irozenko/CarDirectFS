@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D71B97DC78BBC48DF6B1FFC /* Pods_CarDirect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5936598AA8AD5D5F735A882B /* Pods_CarDirect.framework */; };
+		EA814C152528816400F59335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C142528816400F59335 /* AppDelegate.swift */; };
+		EA814C172528816400F59335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C162528816400F59335 /* SceneDelegate.swift */; };
+		EA814C1C2528816400F59335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA814C1A2528816400F59335 /* Main.storyboard */; };
+		EA814C1E2528816700F59335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA814C1D2528816700F59335 /* Assets.xcassets */; };
+		EA814C212528816700F59335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA814C1F2528816700F59335 /* LaunchScreen.storyboard */; };
+		EA814C292528825400F59335 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C282528825400F59335 /* MainViewController.swift */; };
+		EA814C2B2528E02A00F59335 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C2A2528E02A00F59335 /* CustomTableViewCell.swift */; };
+		EA814C2D25290BA200F59335 /* CarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C2C25290BA200F59335 /* CarInfo.swift */; };
+		EA814C2F252A254300F59335 /* NewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C2E252A254300F59335 /* NewCarViewController.swift */; };
+		EA814C31252B86BE00F59335 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA814C30252B86BE00F59335 /* StorageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19140F855C398FA0803350B2 /* Pods-CarDirect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDirect.release.xcconfig"; path = "Target Support Files/Pods-CarDirect/Pods-CarDirect.release.xcconfig"; sourceTree = "<group>"; };
+		3FCA37AADC7F4248C9999F06 /* Pods-CarDirect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDirect.debug.xcconfig"; path = "Target Support Files/Pods-CarDirect/Pods-CarDirect.debug.xcconfig"; sourceTree = "<group>"; };
+		5936598AA8AD5D5F735A882B /* Pods_CarDirect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDirect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA814C112528816400F59335 /* CarDirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA814C142528816400F59335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA814C162528816400F59335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA814C1B2528816400F59335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA814C1D2528816700F59335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA814C202528816700F59335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA814C222528816700F59335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA814C282528825400F59335 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA814C2A2528E02A00F59335 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EA814C2C25290BA200F59335 /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
+		EA814C2E252A254300F59335 /* NewCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarViewController.swift; sourceTree = "<group>"; };
+		EA814C30252B86BE00F59335 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA814C0E2528816400F59335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D71B97DC78BBC48DF6B1FFC /* Pods_CarDirect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AE626589FEE76B0EB9CF9D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA37AADC7F4248C9999F06 /* Pods-CarDirect.debug.xcconfig */,
+				19140F855C398FA0803350B2 /* Pods-CarDirect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DF15F29856C3AE5B0EBC908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5936598AA8AD5D5F735A882B /* Pods_CarDirect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA814C082528816400F59335 = {
+			isa = PBXGroup;
+			children = (
+				EA814C132528816400F59335 /* CarDirect */,
+				EA814C122528816400F59335 /* Products */,
+				2AE626589FEE76B0EB9CF9D8 /* Pods */,
+				7DF15F29856C3AE5B0EBC908 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA814C122528816400F59335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA814C112528816400F59335 /* CarDirect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA814C132528816400F59335 /* CarDirect */ = {
+			isa = PBXGroup;
+			children = (
+				EA814C142528816400F59335 /* AppDelegate.swift */,
+				EA814C162528816400F59335 /* SceneDelegate.swift */,
+				EA814C282528825400F59335 /* MainViewController.swift */,
+				EA814C2C25290BA200F59335 /* CarInfo.swift */,
+				EA814C30252B86BE00F59335 /* StorageManager.swift */,
+				EA814C2E252A254300F59335 /* NewCarViewController.swift */,
+				EA814C1A2528816400F59335 /* Main.storyboard */,
+				EA814C2A2528E02A00F59335 /* CustomTableViewCell.swift */,
+				EA814C1D2528816700F59335 /* Assets.xcassets */,
+				EA814C1F2528816700F59335 /* LaunchScreen.storyboard */,
+				EA814C222528816700F59335 /* Info.plist */,
+			);
+			path = CarDirect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA814C102528816400F59335 /* CarDirect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA814C252528816700F59335 /* Build configuration list for PBXNativeTarget "CarDirect" */;
+			buildPhases = (
+				A975979ED39FF3CF8110EC72 /* [CP] Check Pods Manifest.lock */,
+				EA814C0D2528816400F59335 /* Sources */,
+				EA814C0E2528816400F59335 /* Frameworks */,
+				EA814C0F2528816400F59335 /* Resources */,
+				63E84BF7A396A5C7EA867EBB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarDirect;
+			productName = CarDirect;
+			productReference = EA814C112528816400F59335 /* CarDirect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA814C092528816400F59335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ilya Rozenko";
+				TargetAttributes = {
+					EA814C102528816400F59335 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EA814C0C2528816400F59335 /* Build configuration list for PBXProject "CarDirect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA814C082528816400F59335;
+			productRefGroup = EA814C122528816400F59335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA814C102528816400F59335 /* CarDirect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA814C0F2528816400F59335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA814C212528816700F59335 /* LaunchScreen.storyboard in Resources */,
+				EA814C1E2528816700F59335 /* Assets.xcassets in Resources */,
+				EA814C1C2528816400F59335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63E84BF7A396A5C7EA867EBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarDirect/Pods-CarDirect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarDirect/Pods-CarDirect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarDirect/Pods-CarDirect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A975979ED39FF3CF8110EC72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarDirect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA814C0D2528816400F59335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA814C2F252A254300F59335 /* NewCarViewController.swift in Sources */,
+				EA814C292528825400F59335 /* MainViewController.swift in Sources */,
+				EA814C152528816400F59335 /* AppDelegate.swift in Sources */,
+				EA814C31252B86BE00F59335 /* StorageManager.swift in Sources */,
+				EA814C2B2528E02A00F59335 /* CustomTableViewCell.swift in Sources */,
+				EA814C2D25290BA200F59335 /* CarInfo.swift in Sources */,
+				EA814C172528816400F59335 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA814C1A2528816400F59335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA814C1B2528816400F59335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA814C1F2528816700F59335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA814C202528816700F59335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA814C232528816700F59335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA814C242528816700F59335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA814C262528816700F59335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCA37AADC7F4248C9999F06 /* Pods-CarDirect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HM6F8VC2Y;
+				INFOPLIST_FILE = CarDirect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IRHome.CarDirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA814C272528816700F59335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19140F855C398FA0803350B2 /* Pods-CarDirect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6HM6F8VC2Y;
+				INFOPLIST_FILE = CarDirect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IRHome.CarDirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA814C0C2528816400F59335 /* Build configuration list for PBXProject "CarDirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA814C232528816700F59335 /* Debug */,
+				EA814C242528816700F59335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA814C252528816700F59335 /* Build configuration list for PBXNativeTarget "CarDirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA814C262528816700F59335 /* Debug */,
+				EA814C272528816700F59335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA814C092528816400F59335 /* Project object */;
+}
